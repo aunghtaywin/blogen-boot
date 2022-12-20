@@ -25,4 +25,15 @@ public class Post {
     @ManyToOne
     private User user;
 
+
+    @Override
+    public String toString() {
+        return "Post{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", datePosted=" + datePosted +
+                ", category=" + category.getId() +
+                ", user=" + user.getId() +
+                '}';
+    }
 }
