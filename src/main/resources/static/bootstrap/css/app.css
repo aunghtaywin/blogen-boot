@@ -1,4 +1,10 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman";
+}
 
+.navbar, .nav-item, .navbar-brand, .nav-link, .navbar-collapse, .btn, .table {
+    font-family: "Times New Roman";
+}
 
 .body{
     font-family: "Times New Roman";
